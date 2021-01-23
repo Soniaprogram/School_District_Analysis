@@ -5,11 +5,11 @@ For this part of the Challenge, write a report that summarizes your updated anal
 
 The analysis should contain the following:
 
-###Overview of the school district analysis
-Explain the purpose of this analysis.
+## Overview of the school district analysis
+### Explain the purpose of this analysis.
 
-###Results
-Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results
+### Using bulleted lists and images of DataFrames as support, address the following questions.
 
 How is the district summary affected?
 How is the school summary affected?
@@ -20,4 +20,5 @@ Scores by school spending
 Scores by school size
 Scores by school type
 
-###Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Summary
+### Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
