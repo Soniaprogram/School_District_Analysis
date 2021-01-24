@@ -19,6 +19,9 @@ Deliverable 2: Repeat the school district analysis . Recreating the following me
 ## Results
 ### Using bulleted lists and images of DataFrames as support, address the following questions.
 How is the district summary affected?
+The passing_math_percentage equated to 74.76%, passing_reading_percentage equated to 85.66%, and overall_passing_percentage equated to 64.86% after recalculating with the new student count of 38,709 (excluding the ninth graders from Thomas High School). 
+The original passing_math_percentage was 74.98%, passing_reading_percentage was 85.81%, and overall_passing_percentage was 65.17%. 
+Comparing the originally calculated percentages that included the Thomas High School ninth graders to the new ones excluding the Thomas High School ninth graders, there is only a very small change. The new percentages are very slightly lower than the original ones. 
 
 How is the school summary affected?
 How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
