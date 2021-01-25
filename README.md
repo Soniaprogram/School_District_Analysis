@@ -44,22 +44,29 @@ With an overall passing percentage of 90.6% rather than the initial 90.9%, Thoma
 #### How does replacing the ninth-grade scores affect the following:
 
 ##### Math and reading scores by grade
-No change seen in the math and 
+In the math and reading scores by grade, the ninth grade values for Thomas High School are replaced with NaN. In the original the math score was 83.6 and reading score was 83.7 for Thomas High School 9th Graders.
+
+*insert
 
 ##### Scores by school spending
-No change seen in the scores by school spending
+No significant change seen in the scores by school spending
 
 *insert
 
 ##### Scores by school size
-No change seen in the scores by school spending
+No significant change seen in the scores by school spending
 
 *insert
 
 ##### Scores by school type
-No change seen in the scores by school spending
+No significant change seen in the scores by school spending
 
 *insert
 
 ## Summary
 ### Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+- NaNs replaced the scores in the math and reading scores for ninth graders for Thomas High School as seen below
+*insert
+
+- The School summary metrics: passing math, passing reading, overall passing percentages were really low when calculating with the NaN's (before removing the ninth graders from the calculation) as shown below
+*insert
