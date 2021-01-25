@@ -81,6 +81,7 @@ No significant change seen in the scores by school spending
 No significant change seen in the scores by school size
 
 ![schoolsize](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/6newscoresbyschoolsize.PNG)
+
 ***Image 10: School Size***
 
 ### Scores by school type
