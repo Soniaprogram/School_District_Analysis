@@ -19,7 +19,7 @@ Deliverable 2: Repeat the school district analysis. Recreating the following met
 
 ## Results
 
-#### How is the district summary affected?
+### How is the district summary affected?
 The passing_math_percentage equated to 74.8%, passing_reading_percentage equated to 85.7%, and overall_passing_percentage equated to 64.9% after recalculating with the new student count (excluding the ninth graders from Thomas High School). 
 The original passing_math_percentage was 75.0%, passing_reading_percentage was 85.8%, and overall_passing_percentage was 65.2%. 
 Comparing the originally calculated percentages that included the Thomas High School ninth graders to the new ones excluding the Thomas High School ninth graders, there is only a very small change. The new percentages are very slightly lower than the original ones. 
@@ -31,7 +31,7 @@ Comparing the originally calculated percentages that included the Thomas High Sc
  ![districtsummary1](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/1DistrictSummary.PNG)
  ***Image 2: New District Summary***
 
-#### How is the school summary affected?
+### How is the school summary affected?
 
 After calculating the passing percentages, looking solely at the 10th-12th graders' scores, it can be seen that the passing percentages (math, reading, and overall) all decreased very slightly after removing the ninth graders. 
 
@@ -44,7 +44,7 @@ Looking at only the tenth to twelvth graders, the new passing math percentage wa
 ![schoolsummary1](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/2newschoolsummarycropped.PNG)
 ***Image 4: New School Summary***
 
-#### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 With an overall passing percentage of 90.6% rather than the initial 90.9%, Thomas High School still remains as the second highest performing school.
 
 ![high1](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/3originalhighschool.PNG)
@@ -55,9 +55,9 @@ With an overall passing percentage of 90.6% rather than the initial 90.9%, Thoma
 ***Image 6: New Top Performing Schools***
 
 
-#### How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following:
 
-##### Math and reading scores by grade
+#### Math and reading scores by grade
 In the math and reading scores by grade, the ninth grade values for Thomas High School are replaced with NaN. In the original the math score was 83.6 and reading score was 83.7 for Thomas High School 9th Graders.
 
 ![mathscores](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/4origmathscoresbygrade.PNG)
@@ -70,7 +70,7 @@ In the math and reading scores by grade, the ninth grade values for Thomas High 
 
 ***Image 8: New Math Scores by Grade (left) and New Reading Scores by Grade (Right)***
 
-##### Scores by school spending
+#### Scores by school spending
 No significant change seen in the scores by school spending
 
 ![schoolspending](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/5newscoresbyschoolspending.PNG)
@@ -82,7 +82,7 @@ No significant change seen in the scores by school spending
 ![schoolsize](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/6newscoresbyschoolsize.PNG)
 ***Image 10: School Size***
 
-##### Scores by school type
+#### Scores by school type
 No significant change seen in the scores by school spending
 
 ![schooltype](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/7scoresbyschooltype.PNG)
