@@ -1,5 +1,6 @@
 # School_District_Analysis
 
+
 ## Overview of the school district analysis
 Maria, a chief data scientist for a city school district, is responsible for analyzing standardized test scores, preparing all test data for analysis, reporting, and presenting performance trends and patterns. The insights garnered through this analysis will influence discussions and strategic decision making at the school and district level. 
 
@@ -17,39 +18,48 @@ Deliverable 2: Repeat the school district analysis. Recreating the following met
 - The scores by school spending per student, by school size, and by school type)
 
 ## Results
-### Using bulleted lists and images of DataFrames as support, address the following questions.
-How is the district summary affected?
+
+#### How is the district summary affected?
 The passing_math_percentage equated to 74.8%, passing_reading_percentage equated to 85.7%, and overall_passing_percentage equated to 64.9% after recalculating with the new student count (excluding the ninth graders from Thomas High School). 
 The original passing_math_percentage was 75.0%, passing_reading_percentage was 85.8%, and overall_passing_percentage was 65.2%. 
 Comparing the originally calculated percentages that included the Thomas High School ninth graders to the new ones excluding the Thomas High School ninth graders, there is only a very small change. The new percentages are very slightly lower than the original ones. 
 
 *Insert picture of district summary
 
-How is the school summary affected?
+#### How is the school summary affected?
 
-After calculating the passing percentages, looking solely at the 10th-12th graders' scores, it can be seen that the passing percentages (math, reading, and overall) all increased significantly after removing the ninth graders. 
+After calculating the passing percentages, looking solely at the 10th-12th graders' scores, it can be seen that the passing percentages (math, reading, and overall) all decreased very slightly after removing the ninth graders. 
 
-The original passing math percentage was 66.9%, passing reading percentage was 69.7%, and overall passing percentage was 65.1% as seen below.
+The original passing math percentage was 93.3%, passing reading percentage was 97.3%, and overall passing percentage was 90.9% as seen below.
 
 *insert
+
 Looking at only the tenth to twelvth graders, the new passing math percentage was 93.2%, passing reading percentage was 97.0%, and overall passing percentage was 90.6% as seen below.
+
 *insert
 
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-With an overall passing percentage of 90.6% rather than the initial 65.1%, Thomas High School becomes the second highest performing school.
+#### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+With an overall passing percentage of 90.6% rather than the initial 90.9%, Thomas High School still remains as the second highest performing school.
 
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
+#### How does replacing the ninth-grade scores affect the following:
 
+##### Math and reading scores by grade
+No change seen in the math and 
 
-Scores by school spending
+##### Scores by school spending
+No change seen in the scores by school spending
 
+*insert
 
-Scores by school size
+##### Scores by school size
+No change seen in the scores by school spending
 
+*insert
 
-Scores by school type
+##### Scores by school type
+No change seen in the scores by school spending
 
+*insert
 
 ## Summary
 ### Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
