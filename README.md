@@ -41,6 +41,7 @@ The original passing math percentage was 93.3%, passing reading percentage was 9
  ***Image 3: Original School Summary***
 
 Looking at only the tenth to twelvth graders, the new passing math percentage was 93.2%, passing reading percentage was 97.0%, and overall passing percentage was 90.6% as seen below.
+
 ![schoolsummary1](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/2newschoolsummarycropped.PNG)
 ***Image 4: New School Summary***
 
@@ -77,21 +78,26 @@ No significant change seen in the scores by school spending
 ***Image 9: School Spending***
 
 ### Scores by school size
-No significant change seen in the scores by school spending
+No significant change seen in the scores by school size
 
 ![schoolsize](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/6newscoresbyschoolsize.PNG)
 ***Image 10: School Size***
 
 ### Scores by school type
-No significant change seen in the scores by school spending
+No significant change seen in the scores by school type
 
 ![schooltype](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/7scoresbyschooltype.PNG)
+
 ***Image 11: School Type***
 
 ## Summary
 ### Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-- NaNs replaced the scores in the math and reading scores for ninth graders for Thomas High School as seen below
+- NaNs replaced the scores in the math and reading scores for ninth graders for Thomas High School as seen below:
 ![nans](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/0NaN.PNG)
 
-- The School summary metrics: passing math, passing reading, overall passing percentages were really low when calculating with the NaN's (before removing the ninth graders from the calculation) as shown below
+- The School summary metrics: passing math, passing reading, overall passing percentages were really low when calculating with the NaN's (before removing the ninth graders from the calculation) as shown below:
 ![schoolsummary2](https://github.com/Soniaprogram/School_District_Analysis/blob/main/Images/8%20originalschoolsummarycropped.PNG)
+
+- The district summary, school summary, top performing, and scores (school spending, size, and type) did not vary significantly when removing the 9th graders' scores for Thomas High School. However, if the NaNs were left in and the 9th grader scores were not removed, this would have skewed our results. As a result, the overall passing percentages and scores would be lower. 
+
+- Thomas High School would not be the second highest performing school if the ninth grader scores were not removed after replacing them with NaNs. The overall passing percentage would actually be 65.1% which would rank it as the 9th highest performing school instead.
